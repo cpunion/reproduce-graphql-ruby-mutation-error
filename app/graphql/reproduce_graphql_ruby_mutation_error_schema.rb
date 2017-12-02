@@ -1,4 +1,4 @@
-ReproduceGraphqlRubyMutationErrorSchema = GraphQL::Schema.define do
+class ReproduceGraphqlRubyMutationErrorSchema < GraphQL::Schema
   mutation(Types::MutationType)
   query(Types::QueryType)
 end
